@@ -1,0 +1,14 @@
+inicio 
+
+entero x;  // iniciamos variable x
+texto text; // iniciamos variable text
+
+imprimir "Iniciando el programa: "
+imprimir text
+mientras x < 10:
+x = 10;
+y = 20;
+f_mientras
+
+imprimir x
+fin
