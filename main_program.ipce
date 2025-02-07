@@ -1,14 +1,42 @@
+// Inicio del programa
+// un pseudocodigo que combina partes de inter-P , python, y Javascript;
+
 inicio 
 
-entero x;  // iniciamos variable x
-texto text; // iniciamos variable text
+entero Opciones;  // iniciamos variable Opciones en una variable tipo entero(int)
+texto Nombre; // iniciamos variable Nombre en una variable tipo texto(string)
+texto GameName; // iniciamos variable GameName en una variable tipo texto(string)
+booleano Game; // iniciamos variable Game en una variable tipo booleano(bool)
 
-imprimir "Iniciando el programa: "
-imprimir text
-mientras x < 10:
-x = 10;
-y = 20;
+Game = true; // Modificamos la variable Game a verdadero
+
+mostrar "Iniciando el programa: " + GameName + "\n" // Mostrar un mensaje en pantalla de inicio más el nombre del juego
+
+	si Opciones == 0:
+		
+		mientras Game == true: // Un Bucle para que no se termine el juego hasta que se desee
+
+			mostrar "Inserte su nombre : \n" // Mostrar u nmensaje en pantalla para introducir un nombre
+			
+			leer Nombre // introducir un (string) y almacenarlo en Nombre
+			
+			mostrar "Inserte una opcion entre 0 y 2 : \n" // Mostrar u nmensaje en pantalla para introducir un valor
+			
+			leer Opciones // introducir un (int) y almacenarlo en Opciones
+			
+			si Opciones == 0:
+				mostrar "Seleccionaste 0 \n"
+			si Opciones == 1:
+				mostrar "Seleccionaste 1 \n"
+			si Opciones == 2:
+				mostrar "Seleccionaste 2 \n"
+			sino
+				mostrar "Seleccionaste algo invalido \n"
+				Opciones == false
+			f_si
+		
+	f_si 
+
 f_mientras
 
-imprimir x
 fin
