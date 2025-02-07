@@ -1,0 +1,22 @@
+﻿# Documentación para index.ipce
+
+## Descripción
+El archivo `index.ipce` es un script escrito en un lenguaje personalizado que está diseñado para ser traducido a código C. Contiene una serie de comandos que definen la lógica de un programa.
+
+## Sintaxis y Palabras Clave
+- **inicio**: Marca el comienzo del programa.
+- **entero**: Declara una variable entera.
+- **texto**: Declara una variable de cadena.
+- **flotante**: Declara una variable flotante.
+- **leer // sin impremental**: Lee un valor entero desde la entrada estándar.
+- **imprimir "texto"**: Muestra un mensaje en la consola.
+- **mientras (condicion):**: Inicia un bucle while.
+- **f_mientras**: Finaliza un bucle mientras.
+- **si (condicion):**: Comienza una declaración if.
+- **sino**: Representa la condición else.
+- **f_si**: Marca el final de la condición si.
+- **fin**: Marca el final de un bloque o del programa.
+
+## nota
+
+todas las variables deben ser declaradas antes de ser utilizadas, y se debe de poner ; al final de cada declaración o modificacion

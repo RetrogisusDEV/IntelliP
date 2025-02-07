@@ -1,4 +1,8 @@
-# Compiling Guide for Intelli-P
+###
+
+<h2 align="center">Compiling Guide for Intelli-P</h2>
+
+###
 
 ## Overview
 This guide provides step-by-step instructions on how to compile the `index.py` script, convert it to an executable, and run the `compile.bat` file.

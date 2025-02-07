@@ -1,0 +1,7 @@
+Actualizaciones de Intelli-P
+
+# Pre-lanzamiento (v0.1)
+
+- Implementaciónes basicas de variables
+- Implementaciónes de condicional si, y bucle mientras
+

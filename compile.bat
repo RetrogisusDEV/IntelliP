@@ -19,7 +19,8 @@ if not exist "cpp_output\output.cpp" (
 )
 
 REM Compile the output.cpp file
-g++ -O1 -std=c++11 -static cpp_output\output.cpp -o ..\project.exe
+g++ -O1 -std=c++14 -m32 -static cpp_output\output.cpp -o ..\project_x86.exe
+g++ -O1 -std=c++14 -m64 -static cpp_output\output.cpp -o ..\project_x64.exe
 
 REM Check if the compilation was successful
 if errorlevel 1 (
